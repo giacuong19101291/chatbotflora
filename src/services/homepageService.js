@@ -11,42 +11,29 @@ let handleSetupProfileAPI = () => {
                 "get_started": {
                     "payload": "GET_STARTED"
                 },
-                "persistent_menu": [
-                    {
+                    "persistent_menu": [
+                      {
                         "locale": "default",
                         "composer_input_disabled": false,
                         "call_to_actions": [
-                            {
-                                "type": "postback",
-                                "title": "Talk to an agent",
-                                "payload": "TALK_AGENT"
-                            },
-                            {
-                                "type": "postback",
-                                "title": "Restart this conversation",
-                                "payload": "RESTART_CONVERSATION"
-                            },
-                            {
-                                "type": "nested",
-                                "title": "More info",
-                                "call_to_actions": [
-                                    {
-                                        "type": "web_url",
-                                        "title": "View Facebook Fan Page",
-                                        "url": "https://www.facebook.com/100092208229812/professional_dashboard/?ref=profile_action",
-                                        "webview_height_ratio": "full"
-                                    },
-                                    {
-                                        "type": "web_url",
-                                        "title": "View Web Site",
-                                        "url": "https://chatbotshop.herokuapp.com/",
-                                        "webview_height_ratio": "full"
-                                    },
-                                ]
-                            }
+                          {
+                            "title": "Option 1",
+                            "type": "postback",
+                            "payload": "OPTION_1_PAYLOAD"
+                          },
+                          {
+                            "title": "Option 2",
+                            "type": "postback",
+                            "payload": "OPTION_2_PAYLOAD"
+                          },
+                          {
+                            "title": "Option 3",
+                            "type": "postback",
+                            "payload": "OPTION_3_PAYLOAD"
+                          }
                         ]
-                    }
-                ],
+                      }
+                    ],
                 "whitelisted_domains": [
                     "https://chatbotshop.herokuapp.com/"
                 ]
@@ -58,6 +45,7 @@ let handleSetupProfileAPI = () => {
                 "json": request_body
             }, (err, res, body) => {
                 if (!err) {
+                    console.log(body)
                     resolve("Done!")
                 } else {
                     reject("Unable to send message:" + err);
