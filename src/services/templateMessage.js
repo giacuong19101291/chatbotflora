@@ -22,6 +22,40 @@ let sendCategoriesTemplate = () =>{
                             }
                         ]
                     },
+                    {
+                        "title": "Lipstick",
+                        "image_url": "https://stylenandaen.com/web/product/medium/202209/00c74a64bc881968931fef773d072d86.jpg",
+                        "subtitle": "3CE Velvet Lip Tint #Taupe is a brick red devoid of burgundy, with unprecedented touches of deep beige.",
+                        "default_action": {
+                            "type": "web_url",
+                            "url": "https://bit.ly/webHeadphones",
+                            "webview_height_ratio": "tall",
+                        },
+                        "buttons": [
+                            {
+                                "type": "web_url",
+                                "url": "https://bit.ly/webHeadphones",
+                                "title": "View on Website"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Lipstick",
+                        "image_url": "https://stylenandaen.com/web/product/medium/202209/99e4ca677cc746dd6c3649ae119d1085.jpg",
+                        "subtitle": "3CE Velvet Lip Tint #Taupe is a brick red devoid of burgundy, with unprecedented touches of deep beige.",
+                        "default_action": {
+                            "type": "web_url",
+                            "url": "https://bit.ly/webHeadphones",
+                            "webview_height_ratio": "tall",
+                        },
+                        "buttons": [
+                            {
+                                "type": "web_url",
+                                "url": "https://bit.ly/webHeadphones",
+                                "title": "View on Website"
+                            }
+                        ]
+                    },
                 ]
             }
         }
