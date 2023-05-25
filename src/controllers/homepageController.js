@@ -239,6 +239,7 @@ module.exports = {
     handleSetupProfile: handleSetupProfile,
     getSetupProfilePage: getSetupProfilePage,
     getInfoOrderPage: getInfoOrderPage,
-    setInfoOrder: setInfoOrder
+    setInfoOrder: setInfoOrder,
+    handlePostback: handlePostback
 };
 
