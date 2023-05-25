@@ -33,13 +33,13 @@ let handleSetupProfileAPI = () => {
                                     {
                                         "type": "web_url",
                                         "title": "View Facebook Fan Page",
-                                        "url": "https://www.facebook.com/haryphamdev",
+                                        "url": "https://www.facebook.com/100092208229812/professional_dashboard/?ref=profile_action",
                                         "webview_height_ratio": "full"
                                     },
                                     {
                                         "type": "web_url",
-                                        "title": "View Youtube channel",
-                                        "url": "https://bit.ly/subscribe-haryphamdev",
+                                        "title": "View Web Site",
+                                        "url": "https://chatbotshop.herokuapp.com/",
                                         "webview_height_ratio": "full"
                                     },
                                 ]
