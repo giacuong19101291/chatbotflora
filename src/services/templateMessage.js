@@ -6,9 +6,9 @@ let sendCategoriesTemplate = () =>{
                 "template_type": "generic",
                 "elements": [
                     {
-                        "title": "Headphones",
-                        "image_url": "https://bit.ly/imageHeadphones",
-                        "subtitle": "Bose Noise Cancelling Wireless Bluetooth Headphones",
+                        "title": "Lipstick",
+                        "image_url": "https://stylenandaen.com/web/product/medium/202209/1e6551308315c1384fe520e6ede8d7f3.jpg",
+                        "subtitle": "3CE Velvet Lip Tint #Taupe is a brick red devoid of burgundy, with unprecedented touches of deep beige.",
                         "default_action": {
                             "type": "web_url",
                             "url": "https://bit.ly/webHeadphones",
@@ -19,11 +19,6 @@ let sendCategoriesTemplate = () =>{
                                 "type": "web_url",
                                 "url": "https://bit.ly/webHeadphones",
                                 "title": "View on Website"
-                            },
-                            {
-                                "type": "postback",
-                                "title": "Show Headphones",
-                                "payload": "SHOW_HEADPHONES"
                             }
                         ]
                     },
