@@ -3,7 +3,8 @@ import homepageService from "../services/homepageService";
 import chatbotService from "../services/chatbotService";
 import templateMessage from "../services/templateMessage";
 
-const MY_VERIFY_TOKEN = process.env.MY_VERIFY_TOKEN;
+const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN
+const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
 
 let getHomePage = (req, res) => {
     let facebookAppId = process.env.FACEBOOK_APP_ID;
@@ -14,7 +15,7 @@ let getHomePage = (req, res) => {
 
 let getWebhook = (req, res) => {
     // Your verify token. Should be a random string.
-    let VERIFY_TOKEN = MY_VERIFY_TOKEN;
+    // let VERIFY_TOKEN = MY_VERIFY_TOKEN;
 
     // Parse the query params
     let mode = req.query['hub.mode'];
