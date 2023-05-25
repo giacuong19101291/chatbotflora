@@ -17,19 +17,20 @@ let handleSetupProfileAPI = () => {
                         "composer_input_disabled": false,
                         "call_to_actions": [
                           {
-                            "title": "Option 1",
+                            "title": "Talk to an agent",
                             "type": "postback",
-                            "payload": "OPTION_1_PAYLOAD"
+                            "payload": "TALK_AGENT"
                           },
                           {
-                            "title": "Option 2",
+                            "title": "Restart this conversation",
                             "type": "postback",
-                            "payload": "OPTION_2_PAYLOAD"
+                            "payload": "RESTART_CONVERSATIOND"
                           },
                           {
-                            "title": "Option 3",
-                            "type": "postback",
-                            "payload": "OPTION_3_PAYLOAD"
+                            "title": "View Facebook Fan Page",
+                            "type": "web_url",
+                            "url": "https://www.facebook.com/profile.php?id=100092208229812",
+                            "webview_height_ratio": "full"
                           }
                         ]
                       }
